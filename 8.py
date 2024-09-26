@@ -1,0 +1,6 @@
+a,b,c,d,e=map(int,input('請輸入一個五位數：'))
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
