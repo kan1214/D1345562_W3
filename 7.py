@@ -1,4 +1,4 @@
 a=int(input('輸入一個十進制數字：'))
-b=bin(a)
-print('二進制：')
-print('{0b}'.format(int(a,'b')))
+print('二進制：',format(a,'b'))
+print('八進制：',format(a,'o'))
+print('十六進制：',format(a,'x'))
